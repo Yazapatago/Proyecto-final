@@ -1,0 +1,51 @@
+*hacer el menu del juego
+
+*la gravedad(fisicas) hace que el jugador(objeto) en caida libre(que es cuando el jugador no esta colisionando con nada) desarrolle una aceleracion constante hasta que el jugador colisione con el terreno 
+
+*realizar el mapeo del terreno(techo, paredes y suelo) definiendo sus colisiones con el jugador(objeto) y los enemigos(objeto)
+
+*cuando el jugador(objeto) colisiona una pared, la gravedad(fisicas) es remplazada por el deslizamiento(fisicas) que hace que el jugador(objeto) baje con 
+una velocidad constante dando la sensacion de deslizarse hacia abajo por la pared reduciendo su velocidad de caida considerablemente
+
+*una funcion que cuando el jugador(objeto) muere reinicie el nivel
+
+*los enemigos(objeto) se comportan de la siguiente forma:
+
+1.se desplazan constantemente a la derecha o a la izquierda en el eje X
+2.detectan si hay mas terreno(suelo) para desplazarsen, si hay mas terreno se continuan moviendo, si no lo hay se desplazan en direccion contraria
+
+tienen dos interacciones con el jugador:
+
+puede matar al jugador si lo tiene enfrente o morir si el jugador lo colisiona por atras. 
+
+*los pinchos(objeto) hacen que el jugador muera cuando este colisiona con ellos
+
+*la llave(objeto) es un elemento que al colisionar con el jugador(objeto) desencadena la funcion "hagarrar llave"
+
+*la puerta(objeto) es un elemento que interactuo de dos formas con el jugador:
+
+1.si el jugador ya densencadeno la funcion "hagarrar llave", al detectar la colision con el jugador la puerta se abre
+2.si el jugador no ha desencadenado la fucion "hagarrar llave", al dectectar la colision con el jugador la puerta no abre
+
+*la lanza(objeto) se desplaza con velocidad constante en cualquier direccion (esta define por medio de las ASDW del teclado), hasta que colisiona
+
+*el jugador(objeto) se comporta de la misma forma que la lanza después de que la lanza colisiona con el terreno, y este tiene varias interacciones:
+
+1.si colisiona con los pinchos muere
+2.si colisiona con los enemigos desde el frente o si está al frente de los enemigos muere
+3.si colisiona con los enemigos desde atrás mata al enemigo
+4.si colsiona con el terreno y es una pared, el jugador se ve afectado por deslizamiento(fisicas)  
+5.si no esta colisionando con nada(caida libre), el jugador se ve afectado por gravedad(fisicas)
+6.si colisiona con la llave(objeto), desencadena la funcion "hagarrar llave"
+7.si colisiona con la puerta y ya desencadeno la funcion "hagarrar llave", la puerta se abre
+8.si colosiona con la puerta y no desencadeno la funcion "hagarrar llave", la puerta no se abre
+
+*una funcion que reinicie los niveles con una tecla del teclado
+
+*una funcion que cambie los niveles con una tecla del teclado
+
+
+
+
+
+

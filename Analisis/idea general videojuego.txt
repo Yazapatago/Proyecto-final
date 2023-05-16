@@ -1,0 +1,5 @@
+Título:spearman madness
+
+Eres un personaje con una lanza que se estira la cual permite sugetarse a las superficies, la lanza se extiende hasta toparse con una colision,
+el objetivo es conseguir una llave a traves de un puzzle que seria la forma del nivel, para poder abrir una puerta que permite seguir avanzando usando
+su lanza como medio de transporte para abrirse paso por los diferentes niveles que aguardan en la mazmorra repleta de obstaculos y enemigos.
